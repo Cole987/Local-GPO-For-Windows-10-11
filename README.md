@@ -8,3 +8,34 @@ I personally use this tool and to the modification for making work with all Wind
 
 I don't create the Script, it from Microsoft it self !
 
+
+
+### For using it : 
+
+For making an backup of your LocalGPO : 
+
+```shell
+LocalGPO.wsf /Path:C:\GPObackup /Export
+```
+
+"C:\GPObackup" you can replace it by the folder that you want !
+
+
+
+For importing an existing backup : 
+
+```shell
+LocalGPO.wsf /Path:C:\GPObackup\{61A09835-BED1-4573-A599-3E87118754CA}
+```
+
+"C:\GPObackup\{61A09835-BED1-4573-A599-3E87118754CA}" is an example like before, so put your actual folder path :sweat_smile: 
+
+And then restart your computer ! 
+
+It DONE. 
+
+Congratulation ! 
+
+
+
+Have fun using it ! 
